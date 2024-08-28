@@ -4,7 +4,7 @@ require("../db/db");
 const Customer = require("./Customer");
 
 const app = express();
-const port = 5000;
+const port = 5001;
 app.use(cors()); // for cors issue
 app.use(express.json());
 
